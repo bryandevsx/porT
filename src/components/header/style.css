@@ -1,0 +1,32 @@
+.header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 60px;
+     margin-right: 80px ;
+     color: white;
+     padding-top: 20px;
+}
+
+.itens {
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+}
+
+.itens li {
+     font-size: 20px;
+     font-weight: 600;
+     margin-right: 90px;
+
+}
+
+.ctt {
+     background-color: #E0AC00;
+     font-weight: 500;
+     color: #0D1B2A;
+     border-radius: 30px;
+     transition: background-color 0.3s ease;
+     padding: 3px 10px;
+
+}
