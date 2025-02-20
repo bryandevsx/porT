@@ -33,13 +33,14 @@ nav a {
      color: #E0E1DD;
      text-decoration: none;
      margin-right: 12px;
-     transition: all 0.3s ease-in-out;
+     transition: all 0.1s ease-in-out;
 
 }
 
 
 nav a:hover {
-     transform: scale(1.2);
+     transform: scale(1.04);
+     color: #E0AC00;
 }
 
 #a-contato {
@@ -164,16 +165,13 @@ nav a:hover {
 }
 
 .img-links img:hover {
-     transform: scale(1.4);
+     transform: scale(1.1);
 }
 
 #projetos {
-     height: 85vh;
+     height: 89vh;
      background: linear-gradient(135deg, #0D1B2A 0%, #1B2C42 50%, #304766 100%);
      min-height: 70vh;
-
-
-
 }
 
 #projetos h1 {
@@ -183,7 +181,6 @@ nav a:hover {
      margin-bottom: 4%;
      font-size: 3.5rem;
      color: #E0E1DD;
-
 }
 
 .card-list .card-item {
@@ -197,7 +194,8 @@ nav a:hover {
 }
 
 .card-list .card-item .card-link {
-     width: 77%;
+     width: 74%;
+     height: 505%;
      display: block;
      background: #f1f1f0;
      padding: 18px;
@@ -234,17 +232,17 @@ nav a:hover {
      border-radius: 50px;
 }
 
-.card-list .card-link .badge.designer {
+.card-list .card-link .badge.java {
      color: #B22485;
      background: #F7DFF5;
 }
 
-.card-list .card-link .badge.marketer {
+.card-list .card-link .badge.laravel {
      color: #B25A2B;
      background: #F7DFF5;
 }
 
-.card-list .card-link .badge.gamer {
+.card-list .card-link .badge.node {
      color: #205C20;
      background: #D6F8D6;
 }
@@ -256,7 +254,7 @@ nav a:hover {
 
 .card-list .card-link .card-title {
      font-size: 1.19rem;
-     color: #000;
+     color: #0D1B2A;
      font-weight: 600;
 }
 
@@ -269,7 +267,6 @@ nav a:hover {
      border: 2.5px solid #E0AC00;
      border-radius: 50px;
      cursor: pointer;
-     overflow: hidden;
      margin-top: 20px;
      transform: rotate(-45deg);
      transition: width 0.4s, background 0.4s, color 0.6s;
@@ -283,7 +280,6 @@ nav a:hover {
 .card-wrapper {
      display: flex;
      justify-content: center;
-     width: 80%;
      align-items: center;
 }
 
@@ -299,24 +295,42 @@ nav a:hover {
      opacity: 1;
 }
 
-.card-wrapper .swiper-slide-button {
-     color: transparent;
-}
-
-
-#contato {
+#formacao{
      height: 100vh;
      background-color: rgb(255, 255, 255);
 }
 
 
 footer {
-     background: #333;
+     background: #0D1B2A;
      color: #fff;
      text-align: center;
-     padding: 10px;
      width: 100%;
      bottom: 0;
 }
 
+.footer-links {
+     background-color: #415A77;
+     padding-top: 1%;
+     padding-bottom: 7px;
+}
 
+.footer-links p {
+     margin-top: 8px;
+}
+
+.footer-img {
+     display: flex;
+     justify-content: center;
+     margin-top: 1%;
+     gap: 3%;
+     margin-top: 1%;
+}
+
+.footer-img img {
+     transition: all 0.3s ease-in-out;
+}
+
+.footer-img img:hover {
+     transform: scale(1.1);
+}
